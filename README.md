@@ -8,7 +8,7 @@ Once set up, the Routine runs hands-free every weekday on Anthropic's cloud infr
 
 - Reads your Slack channels and DMs
 - Filters for what's actually relevant to your role
-- Sends you **🚨 immediate alerts** for major events (project decisions, reorgs, role changes)
+- Sends you **🚨 immediate alerts** for major events (e.g., significant project decisions, reorgs)
 - Sends **📋 digest recaps** on your chosen cadence (daily, a few times a week, weekly, or monthly)
 - Stays **🔇 silent** when nothing notable happened
 - Maintains a memory file so it never repeats itself run-to-run
@@ -17,8 +17,8 @@ Once set up, the Routine runs hands-free every weekday on Anthropic's cloud infr
 
 ### First-time setup (~10 minutes)
 
-1. Open Claude Code (terminal or web at claude.ai/code)
-2. Clone this repo or connect to it
+1. Open Claude Code in your **terminal** or **desktop app** (see Platform Support below — web does not work for setup)
+2. Clone this repo or navigate to it locally
 3. Say: **"Set up my leave monitor"**
 4. The wizard walks you through setup — you'll need:
    - A private GitHub repo you create for your personal data (the wizard will prompt you to create one)
@@ -31,15 +31,26 @@ Once set up, the Routine runs hands-free every weekday on Anthropic's cloud infr
 When you return from leave, **pause or delete the Routine** in Claude Code but **keep your private repo**.
 
 Next time you go on leave or PTO:
-1. Open Claude Code and connect to this skill repo
+1. Open Claude Code (terminal or desktop app) and navigate to this repo
 2. Say: **"Reactivate my leave monitor"**
 3. The wizard detects your saved profile and asks only 3 questions: leave type, what's changed, and cadence for this absence
 4. You get a new Routine prompt in minutes
 
+## Platform Support
+
+**Running the setup wizard:**
+- ✅ Terminal — Mac, Windows, Linux
+- ✅ Claude Code Desktop app — Mac and Windows only
+- ❌ Claude Code on the web (claude.ai/code) — Skills are not supported in remote web sessions; use the terminal or desktop app for setup
+
+**The automated Routine (once created):**
+- ✅ Runs on Anthropic's cloud infrastructure regardless of which platform you used for setup — your laptop does not need to be on
+
 ## What You'll Need
 
 - Claude Code access (Pro, Max, Team, or Enterprise plan)
-- A private GitHub repo for your personal data (the wizard will ask you to create one)
+- Terminal or Claude Code Desktop app for the one-time setup (see Platform Support above)
+- A private GitHub repo for your personal data (the wizard will ask you to create one during setup)
 - Slack connected as a connector in Claude Code
 - Google Drive connected as a connector (optional but recommended)
 
