@@ -8,7 +8,7 @@ Once set up, the Routine runs hands-free every weekday on Anthropic's cloud infr
 
 - Reads your Slack channels and DMs
 - Filters for what's actually relevant to your role
-- Sends you **🚨 immediate alerts** for major events (reorgs, role changes, layoffs, project decisions)
+- Sends you **🚨 immediate alerts** for major events (project decisions, reorgs, role changes)
 - Sends **📋 digest recaps** on your chosen cadence (daily, a few times a week, weekly, or monthly)
 - Stays **🔇 silent** when nothing notable happened
 - Maintains a memory file so it never repeats itself run-to-run
